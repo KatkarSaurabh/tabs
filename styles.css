@@ -1,0 +1,19 @@
+#tabs{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(88, 111, 103);
+    box-sizing: border-box;
+}
+#tabs button{
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+#tabs .active{
+    background-color: black;
+    color: whitesmoke;
+}
